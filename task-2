@@ -1,0 +1,34 @@
+def word_count(text):
+    if not text.strip():  
+        return 0
+def word_count(text):
+    if not text.strip():
+        return 0
+    
+    words = text.split()  
+def word_count(text):
+    if not text.strip():
+        return 0
+    
+    words = text.split()
+    return len(words)
+# Test cases
+print(word_count("Hello, world!"))  
+print(word_count("This is a sentence."))  
+print(word_count(" "))   
+print(word_count(""))  
+print(word_count("   Hello   world   "))  
+def word_count(text):
+    if not text.strip():
+        return 0
+    
+    words = text.split()
+    return len(words)
+
+# Test cases
+print(word_count("Hello, world!")) 
+print(word_count("This is a sentence.")) 
+print(word_count("  "))  
+print(word_count(""))  
+print(word_count("   Hello   world   "))  
+
